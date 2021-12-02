@@ -19,9 +19,21 @@ public class Day2Test {
     }
 
     @Test
+    public void testGetSubmarineFinalPositionWithAim() {
+        ArrayList<String> inputTest = new ArrayList<>(Arrays.asList("forward 5","down 5","forward 8","up 3","down 8","forward 2"));
+        MatcherAssert.assertThat("Submarine final position with aim is correctly calculated", Day2.getSubmarineFinalPositionWithAim(inputTest), Matchers.equalTo(900L));
+    }
+
+    @Test
     public void getFirstChallengeResult() {
         FileUtils.readInputFileAsList("input.txt", 2)
                 .ifPresent(lines -> log.info(String.valueOf(Day2.getSubmarineFinalPosition(lines))));
+    }
+
+    @Test
+    public void getSecondChallengeResult() {
+        FileUtils.readInputFileAsList("input.txt", 2)
+                .ifPresent(lines -> log.info(String.valueOf(Day2.getSubmarineFinalPositionWithAim(lines))));
     }
 
 
