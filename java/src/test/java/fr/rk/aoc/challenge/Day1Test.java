@@ -1,10 +1,12 @@
 package fr.rk.aoc.challenge;
 
+import fr.rk.aoc.challenge.utils.FileUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -30,19 +32,13 @@ public class Day1Test {
 
     @Test
     public void getFirstChallengeResult() {
-        try (Stream<String> lines = Files.lines(Paths.get("src/test/resources/day1/firstChall/input.txt"))) {
-            log.info(String.valueOf(Day1.nbTimesValuesIncreased(lines.map(Long::valueOf).collect(Collectors.toList()))));
-        } catch (IOException ioException) {
-            log.error("Unable to read input file : {}", ioException.getMessage());
-        }
+        FileUtils.readInputFileAsStream("firstChall/input.txt", 1)
+                .ifPresent(lines -> log.info(String.valueOf(Day1.nbTimesValuesIncreased(lines.map(Long::valueOf).collect(Collectors.toList())))));
     }
 
     @Test
     public void getSecondChallengeResult() {
-        try (Stream<String> lines = Files.lines(Paths.get("src/test/resources/day1/firstChall/input.txt"))) {
-            log.info(String.valueOf(Day1.nbTimesSumValuesIncreased(lines.map(Long::valueOf).collect(Collectors.toList()))));
-        } catch (IOException ioException) {
-            log.error("Unable to read input file : {}", ioException.getMessage());
-        }
+        FileUtils.readInputFileAsStream("firstChall/input.txt", 1)
+                .ifPresent(lines -> log.info(String.valueOf(Day1.nbTimesSumValuesIncreased(lines.map(Long::valueOf).collect(Collectors.toList())))));
     }
 }
