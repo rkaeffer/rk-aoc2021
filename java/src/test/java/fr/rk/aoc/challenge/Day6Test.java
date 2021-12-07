@@ -23,7 +23,7 @@ public final class Day6Test {
     @Test
     public void testGetNbFishAfter256Days(){
         List<Integer> inputAsInt = Arrays.stream(inputTest.get(0).split(",")).map(Integer::valueOf).collect(Collectors.toList());
-        MatcherAssert.assertThat("Nb fish after 80 days is correcly calculated", Day6.getNbFishAfterNDays(inputAsInt, 256), Matchers.equalTo(26984457539L));
+        MatcherAssert.assertThat("Nb fish after 256 days is correcly calculated", Day6.getNbFishAfterNDays(inputAsInt, 256), Matchers.equalTo(26984457539L));
     }
 
     @Test
