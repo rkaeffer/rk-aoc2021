@@ -1,1 +1,14 @@
-# rk-aoc2021
+# 🎅 Advent of Code 2021 🤶
+
+This repository contains my solutions in java to the problems of [Advent of Code 2021](https://adventofcode.com/2021).
+
+Hope we can save 🧝‍♀️ elves 🧝‍♂️ christmas by retrieving all the 🔑 !
+
+# 🎄 Quick links 🎄
+
+| S 	                    | M 	                    | T 	                    | W 	                    | T 	                    | F 	                    | S 	                    |
+|:-:	                    |:-:	                    |:-:	                    |:-:	                    |:-:	                    |:-:	                    |:-:	                    |
+||||1<br/>[📜Statement](https://adventofcode.com/2021/day/1)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day1.java)|2<br/>[📜Statement](https://adventofcode.com/2021/day/2)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day2.java)|3<br/>[📜Statement](https://adventofcode.com/2021/day/3)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day3.java)|4<br/>[📜Statement](https://adventofcode.com/2021/day/4)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day4.java)|
+|5<br/>[📜Statement](https://adventofcode.com/2021/day/5)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day5.java)|6<br/>[📜Statement](https://adventofcode.com/2021/day/6)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day6.java)|7<br/>[📜Statement](https://adventofcode.com/2021/day/7)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day7.java)|8<br/>[📜Statement](https://adventofcode.com/2021/day/8)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day8.java)|9<br/>[📜Statement](https://adventofcode.com/2021/day/9)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day9.java)|10<br/>[📜Statement](https://adventofcode.com/2021/day/10)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day10.java)|11<br/>[📜Statement](https://adventofcode.com/2021/day/11)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day11.java)|
+|12<br/>[📜Statement](https://adventofcode.com/2021/day/12)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day12.java)|13<br/>[📜Statement](https://adventofcode.com/2021/day/13)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day13.java)|14<br/>[📜Statement](https://adventofcode.com/2021/day/14)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day14.java)|15<br/>[📜Statement](https://adventofcode.com/2021/day/15)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day15.java)|16<br/>[📜Statement](https://adventofcode.com/2021/day/16)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day16.java)|17<br/>[📜Statement](https://adventofcode.com/2021/day/17)<br/>[🚀Solution](java/src/main/java/fr/rk/aoc/challenge/Day17.java)|18|
+|19|20|21|22|23|24|25
